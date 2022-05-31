@@ -1,0 +1,27 @@
+{
+  "extends": ["airbnb-base", "react-app"],
+  "rules": {
+    "arrow-body-style": "off",
+    "padded-blocks": "off",
+    "arrow-parens": ["error", "always"],
+    "max-len": [
+      "warn",
+      {
+        "code": 150,
+        "ignoreComments": true,
+        "ignorePattern": "^import .*"
+      }
+    ],
+    "no-shadow": ["error", {
+      "builtinGlobals": true
+    }],
+    "no-underscore-dangle": "off",
+    "no-plusplus": ["warn", {
+      "allowForLoopAfterthoughts": true
+    }],
+    "prefer-destructuring": "warn",
+    "space-before-function-paren": ["error", "never"],
+    "class-methods-use-this": "off",
+    "no-param-reassign": ["error", { "props": false }]
+  }
+}
